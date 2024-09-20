@@ -1,0 +1,73 @@
+body {
+    background-color: #f0f8ff;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    background-image: url('treasureisland.jpg'); /* Use the correct image path */
+    background-size: cover; /* Ensures the image covers the whole background */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-attachment: fixed; /* Keeps the image fixed while scrolling */
+    background-position: center; /* Centers the background image */
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;}
+
+.container {
+    text-align: center;
+    border: 2px solid #000;
+    margin-bottom: 30px;
+    background-color: rgba(255, 255, 255, 0.7); /* White background with 70% opacity */
+    padding: 20px;
+    border-radius: 10px; /* Optional: to add rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: to add a subtle shadow effect */
+}
+
+h1 {
+    color: #00008b;
+}
+
+#story {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+#choices button {
+    padding: 10px 20px;
+    font-size: 1.2em;
+    margin: 10px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: #87cefa;
+    color: white;
+    transition: background-color 0.3s;
+}
+
+#choices button:hover {
+    background-color: #4682b4;
+}
+
+#restart {
+    background-color: #ff4500;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+#restart:hover {
+    background-color: #d63333;
+}
+
+section.game-stage {
+    background-image: url('treasureisland.jpg');
+    background-size: cover;
+}
